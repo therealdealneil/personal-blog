@@ -1,9 +1,46 @@
-baseURL = 'https://realdealneil.com/'
+baseURL = 'https://www.realdealneil.com/'
 languageCode = 'en-us'
 theme = 'm10c'
-title = "Real Deal's Real Thoughts"
+title = "Neil Gandhi"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
 
 [params]
-author = 'Neil Gandhi'
-description = 'Making software engineering less painful one day at a time'
-avatar = 'avatar-personal.jpg'
+  author = 'Neil Gandhi'
+  description = 'Making software engineering less painful one day at a time'
+  avatar = 'avatar-personal.jpg'
+
+  [[params.social]]
+    icon = "github"
+    name = "Github"
+    url = "https://github.com/therealdealneil"
+
+  [[params.social]]
+    icon = "twitter"
+    name = "Twitter"
+    url = "https://twitter.com/realdealneil"
+
+  [[params.social]]
+    icon = "linkedin"
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/neil-gandhi-920/"
+
+  [[params.social]]
+    icon = "facebook"
+    name = "Facebook"
+    url = "https://www.facebook.com/neil.gandhi"
