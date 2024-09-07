@@ -1,5 +1,5 @@
 {{ $src := .Get "src" }}
-{{ $image := resources.Get $src }}
+{{ $image := .Page.Resources.GetMatch (printf "*%s*" ($src)) | default (resources.Get $src) }}
 
 {{ $alt := .Get "alt" | default "" }}
 {{ $width := .Get "width" | default "" }}
