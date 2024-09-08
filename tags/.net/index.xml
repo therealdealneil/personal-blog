@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>.Net on Neil Gandhi</title><link>https://www.realdealneil.com/tags/.net/</link><description>Recent content in .Net on Neil Gandhi</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 08 Sep 2024 09:32:43 -0500</lastBuildDate><atom:link href="https://www.realdealneil.com/tags/.net/index.xml" rel="self" type="application/rss+xml"/><item><title>Securing ASP .NET Core Apps Made Easy</title><link>https://www.realdealneil.com/posts/2024/09/secure-headers-asp-net/</link><pubDate>Sun, 08 Sep 2024 09:32:43 -0500</pubDate><guid>https://www.realdealneil.com/posts/2024/09/secure-headers-asp-net/</guid><description>&lt;p>&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->
+
+
+
+
+
+
+
+
+&lt;img src="https://www.realdealneil.com/posts/2024/09/secure-headers-asp-net/hacker_hu16312857404512943086.png" alt="Hacker Acting Maliciously" loading="lazy">&lt;/p>
+&lt;p>Whether you like it or not, there are best practices for security that web applications need to follow. 👋 Today, I want to chat about a nifty little library that can make your ASP.NET Core applications more secure with minimal effort. Say hello to &lt;strong>&lt;a href="https://github.com/andrewlock/NetEscapades.AspNetCore.SecurityHeaders">NetEscapades.AspNetCore.SecurityHeaders&lt;/a>&lt;/strong>!&lt;/p></description></item></channel></rss>
