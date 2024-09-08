@@ -44,3 +44,8 @@ title = "Neil Gandhi"
     icon = "facebook"
     name = "Facebook"
     url = "https://www.facebook.com/neil.gandhi"
+
+  [[params.social]]
+    icon = "instagram"
+    name = "Instagram"
+    url = "https://www.instagram.com/real_deal_neil/"
