@@ -53,19 +53,25 @@ git submodule update
 You can ignore changes made on the submodule from displaying on the metarepo. This reduces unnecessary noise on your metarepo.
 
 ```bash
-git update-index --no-assume-unchanged repo1
-git update-index --no-assume-unchanged repo2
+git update-index --assume-unchanged repo1
+git update-index --assume-unchanged repo2
 ```
 
-#### 5. Manage Your Submodules
-You can manage the submodules using standard Git commands. For example, to update a submodule to the latest commit:
+#### 5. Work in Your Repositories
+You can now work inside your repositories as you normally would.
 
 ```bash
 cd repo1
 git pull origin main
+# Make Edits in repo1
+git add .
+git commit -m "Update repo1 with changes"
 cd ..
-git add repo1
-git commit -m "Update repo1 to latest commit"
+cd repo2
+git pull origin main
+# Make Edits in repo2
+git add .
+git commit -m "Update repo2 with changes
 ```
 
 #### 6. Automate with Scripts
