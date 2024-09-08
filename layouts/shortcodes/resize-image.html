@@ -6,4 +6,4 @@
 {{ $height := .Get "height" | default "" }}
 
 {{ $resized := $image.Resize (printf "%sx%s" $width $height) }}
-<img src="{{ $resized.RelPermalink }}" alt="{{ $alt }}">
+<img src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" loading="lazy">
