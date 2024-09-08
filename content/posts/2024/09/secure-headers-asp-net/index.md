@@ -16,11 +16,11 @@ If you've been working with web applications for a while, you know that security
 
 ### The Solution: NetEscapades.AspNetCore.SecurityHeaders
 
-This is where **[NetEscapades.AspNetCore.SecurityHeaders](https://github.com/andrewlock/NetEscapades.AspNetCore.SecurityHeaders)** comes in. This library, created by [Andrew Lock](https://andrewlock.net/), encapsulates all the common security headers into an easy-to-use package. It takes care of the heavy lifting for you, so you can focus on building features instead of worrying about security configurations.
+This is where **[NetEscapades.AspNetCore.SecurityHeaders](https://github.com/andrewlock/NetEscapades.AspNetCore.SecurityHeaders)** comes in. This library, created by [Andrew Lock](https://andrewlock.net/adding-default-security-headers-in-asp-net-core/), encapsulates all the common security headers into an easy-to-use package. It takes care of the heavy lifting for you, so you can focus on building features instead of worrying about security configurations.
 
 ### Alternative Option
 
-While this library will make your life much easier, there's an even easier way to handle this. When running multiple applications, you'll need to add this library into each and every one. A better approach is to add these headers centrally at your load balancer or other edge reverse proxy. This lets you add it once and not have to worry about it for every single application. This approach is out-of-scope for this post, but give it strong consideration. Unfortunately, there may be situations where you're limited and must make changes within your application layer.
+While this library will make your life much easier, there's an even easier way to handle this. When running multiple applications, you'll need to add this library into each and every one. [A better approach](https://scotthelme.co.uk/hardening-your-http-response-headers/) is to add these headers centrally at your web server, load balancer or other edge reverse proxy. This lets you add it once and not have to worry about it for every single application. This approach is out-of-scope for this post, but give it strong consideration. Unfortunately, there may be situations where you're limited and must make changes within your application layer.
 
 ### Getting Started
 
