@@ -19,14 +19,20 @@ Sep 5, 2024</div><div><svg viewBox="0 0 24 24" fill="none" stroke="currentcolor"
 </span></span><span style=display:flex><span>git submodule add https://github.com/your-org/repo2.git
 </span></span></code></pre></div><h4 id=3-initialize-and-update-submodules>3. Initialize and Update Submodules</h4><p>After adding the submodules, initialize and update them to make sure they’re correctly linked.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>git submodule init
 </span></span><span style=display:flex><span>git submodule update
-</span></span></code></pre></div><h4 id=4-ignore-submodule-changes>4. Ignore Submodule Changes</h4><p>You can ignore changes made on the submodule from displaying on the metarepo. This reduces unnecessary noise on your metarepo.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>git update-index --no-assume-unchanged repo1
-</span></span><span style=display:flex><span>git update-index --no-assume-unchanged repo2
-</span></span></code></pre></div><h4 id=5-manage-your-submodules>5. Manage Your Submodules</h4><p>You can manage the submodules using standard Git commands. For example, to update a submodule to the latest commit:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>cd repo1
+</span></span></code></pre></div><h4 id=4-ignore-submodule-changes>4. Ignore Submodule Changes</h4><p>You can ignore changes made on the submodule from displaying on the metarepo. This reduces unnecessary noise on your metarepo.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>git update-index --assume-unchanged repo1
+</span></span><span style=display:flex><span>git update-index --assume-unchanged repo2
+</span></span></code></pre></div><h4 id=5-work-in-your-repositories>5. Work in Your Repositories</h4><p>You can now work inside your repositories as you normally would.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>cd repo1
 </span></span><span style=display:flex><span>git pull origin main
+</span></span><span style=display:flex><span><span style=color:#75715e># Make Edits in repo1</span>
+</span></span><span style=display:flex><span>git add .
+</span></span><span style=display:flex><span>git commit -m <span style=color:#e6db74>&#34;Update repo1 with changes&#34;</span>
 </span></span><span style=display:flex><span>cd ..
-</span></span><span style=display:flex><span>git add repo1
-</span></span><span style=display:flex><span>git commit -m <span style=color:#e6db74>&#34;Update repo1 to latest commit&#34;</span>
-</span></span></code></pre></div><h4 id=6-automate-with-scripts>6. Automate with Scripts</h4><p>To make things easier, create scripts to automate common tasks, like updating all submodules or checking their status.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e>#!/bin/bash
+</span></span><span style=display:flex><span>cd repo2
+</span></span><span style=display:flex><span>git pull origin main
+</span></span><span style=display:flex><span><span style=color:#75715e># Make Edits in repo2</span>
+</span></span><span style=display:flex><span>git add .
+</span></span><span style=display:flex><span>git commit -m <span style=color:#e6db74>&#34;Update repo2 with changes
+</span></span></span></code></pre></div><h4 id=6-automate-with-scripts>6. Automate with Scripts</h4><p>To make things easier, create scripts to automate common tasks, like updating all submodules or checking their status.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e>#!/bin/bash
 </span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#75715e># update_all_submodules.sh</span>
 </span></span><span style=display:flex><span>git submodule foreach git pull origin main
 </span></span></code></pre></div><h3 id=wrapping-up>Wrapping Up</h3><p>A metarepo offers a balanced approach to managing multiple repos, combining the centralized control of a monorepo with the modularity of a multi-repo setup. By following these steps, you can set up a metarepo that enhances your development workflow and scales with your projects. This approach can be highly useful in a microservice architecture, where a team may maintain numerous repositories.</p></div><div class=post-footer></div></article></main></body></html>
