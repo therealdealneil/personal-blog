@@ -2,6 +2,7 @@
 title = 'Elevate Your Team Screenshot Productivity with ShareX'
 date = 2024-09-22T12:39:50-05:00
 draft = false
+tags = ["productivity"]
 +++
 
 It's common for software engineering teams to rely on screenshot and screen recording tools. It's used to build documentation, bug reporting, and various other day-to-day activities. However, many organizations invest in commercial tools like [SnagIt](https://www.techsmith.com/snagit/) with hefty licenses. Or don't take advantage of productivity features that many of these tools offer. It's time to revisit screenshots and learn how to invest in cost-effective solutions and take advantage of the robust productivity features which are commonly overlooked!
