@@ -37,7 +37,7 @@ One area that's often overlooked are the productivity features these tools provi
 
 ShareX is a powerful tool, but it is more complex. It may not work for all teams with its steep learning curve. Its definitely reasonable for teams to adopt and give a shot.
 
-#### Wrap-Up
+### Wrap-Up
 
 Elevate your team's screenshot and screen recording game without breaking the bank. ShareX is a powerful, versatile, and budget-friendly tool that can significantly benefit software engineering teams. Its rich feature set, seamless integration with JIRA and other tools, and high level of customization make it a must-have. Plus, being free and open-source, it offers incredible value. So, if you haven't tried ShareX yet, now's the time to give it a go and see how it can boost your team's productivity.
 
