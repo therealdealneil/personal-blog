@@ -22,7 +22,7 @@ You might be asking why not take advantage of what comes built-into modern opera
 ### Improving Productivity
 One area that's often overlooked are the productivity features these tools provide.
 
-1. **Sharing**: When taking a screenshot, you inevitable have a destination in mind. Either you will share to your coworkers via email, or upload it to a bug reporting tool such as JIRA. I cringe when I see someone take a screenshot and then manually open other software to push to these destinations when it can be automated so easily.
+1. **Sharing**: When taking a screenshot, you inevitably have a destination in mind. Either you will share to your coworkers via email, or upload it to a bug reporting tool such as JIRA. I cringe when I see someone take a screenshot and then manually open other software to push to these destinations when it can be automated easily.
 2. **Annotating**: Frequently, you must annotate an image immediately after taking it and before sending to others. This could include drawing arrows, adding text, or even blurring sensitive data. A screenshot tool should make it a simple to do these actions.
 3. **Scrolling Capture**: Often a browser window or code snippets will be long and you want to capture the entire window, but this needs scroling. Many tools can capture the entire screen with scrolling and stitch it together to a single image.
 
