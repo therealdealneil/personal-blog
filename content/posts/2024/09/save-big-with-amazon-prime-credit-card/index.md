@@ -2,6 +2,7 @@
 title = 'Save Big With Amazon Prime Credit Card!'
 date = 2024-09-30
 draft = false
+tags = ["productivity", "home"]
 +++
 
 <br/><br/>
