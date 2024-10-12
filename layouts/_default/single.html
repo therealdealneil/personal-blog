@@ -26,15 +26,19 @@
       {{- end }}
     </header>
     <div class="post-content">
-      {{ with .Params.banner }}
-        <br/><br/>
-        {{ partial "resize-image.html" (dict "ctx" $ "src" .image "alt" .alt "width" (default "450" .width)) }}
+      {{ if .Params.banner.image }}
+        {{ with .Params.banner }}
+          <br/><br/>
+          {{ partial "resize-image.html" (dict "ctx" $ "src" .image "alt" .alt "width" (default "450" .width)) }}
+        {{ end }}
       {{ end }}
 
       {{ .Content }}
 
-      {{ with .Params.footer }}
-        {{ partial "resize-image.html" (dict "ctx" $ "src" .image "alt" .alt "width" (default "450" .width)) }}
+      {{ if .Params.footer.image }}
+        {{ with .Params.footer }}
+          {{ partial "resize-image.html" (dict "ctx" $ "src" .image "alt" .alt "width" (default "450" .width)) }}
+        {{ end }}
       {{ end }}
     </div>
     <div class="post-footer">
