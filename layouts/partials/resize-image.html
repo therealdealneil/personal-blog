@@ -1,0 +1,9 @@
+{{ $src := .src }}
+{{ $image := .ctx.Page.Resources.GetMatch (printf "*%s*" ($src)) | default (resources.Get $src) }}
+
+{{ $alt := .alt | default "" }}
+{{ $width := .width | default "" }}
+{{ $height := .height | default "" }}
+
+{{ $resized := $image.Resize (printf "%sx%s" $width $height) }}
+<img src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" loading="lazy">
