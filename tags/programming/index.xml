@@ -9,6 +9,10 @@
 
 
 
+
+
+
 &lt;img src="https://www.realdealneil.com/posts/2024/09/exception-monitoring-with-sentry/frustrated-software-tester_hu1834766650273423161.png" alt="Frustrated Software Tester" loading="lazy">
+
 &lt;p>In today&amp;rsquo;s fast-paced development environment, ensuring the stability and reliability of your applications is paramount. One of the most effective ways to achieve this is through &lt;strong>exception monitoring&lt;/strong>. This practice not only helps in identifying and resolving issues quickly but also enhances the overall quality and user experience of your software.&lt;/p>
 &lt;p>In my early engineering career, I used email to capture exceptions from our applications. Obviously, it became overwhelming and inefficient quickly! After some time, I adopted dedicated monitoring tools like &lt;a href="https://sentry.io/">&lt;strong>Sentry&lt;/strong>&lt;/a> which brought immediate and significant productivity benefits for myself and my teams. The benefits of these tools may not initially be obvious, but once it&amp;rsquo;s adopted across an organization, it reduces many inefficiencies that team members weren&amp;rsquo;t even aware of.&lt;/p></description></item></channel></rss>
