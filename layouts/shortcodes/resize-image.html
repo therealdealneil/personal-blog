@@ -2,8 +2,17 @@
 {{ $image := .Page.Resources.GetMatch (printf "*%s*" ($src)) | default (resources.Get $src) }}
 
 {{ $alt := .Get "alt" | default "" }}
+{{ $caption := .Get "caption" | default "" }}
 {{ $width := .Get "width" | default "" }}
 {{ $height := .Get "height" | default "" }}
 
 {{ $resized := $image.Resize (printf "%sx%s" $width $height) }}
+
+{{ if $caption }}
+<figure>
+  <img src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" loading="lazy">
+  <figcaption>{{ $caption }}</figcaption>
+</figure>
+{{ else }}
 <img src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" loading="lazy">
+{{ end }}
