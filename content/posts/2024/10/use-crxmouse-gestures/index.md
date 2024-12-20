@@ -5,7 +5,7 @@ draft = false
 tags = ["productivity", "browser"]
 +++
 
-<br/><br/>
+\
 
 {{< resize-image src="engineer-with-mouse.png" alt="Software engineer at desktop using mouse furiously" width="650" >}}
 

@@ -5,7 +5,7 @@ draft = false
 tags = [".net"]
 +++
 
-<br/><br/>
+\
 {{< resize-image src="hacker.png" alt="Hacker Acting Maliciously" width="450" >}}
 
 Whether you like it or not, there are best practices for security that web applications need to follow. 👋 Today, I want to chat about a nifty little library that can make your ASP.NET Core applications more secure with minimal effort. Say hello to **[NetEscapades.AspNetCore.SecurityHeaders](https://github.com/andrewlock/NetEscapades.AspNetCore.SecurityHeaders)**!

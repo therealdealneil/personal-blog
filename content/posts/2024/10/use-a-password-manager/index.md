@@ -5,7 +5,7 @@ draft = false
 tags = ["productivity", "browser", "security"]
 +++
 
-<br/><br/>
+\
 
 {{< resize-image src="bitwarden-multiple-devices.webp" alt="Screenshots of BitWarden across multiple device types" width="750" >}}
 

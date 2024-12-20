@@ -5,8 +5,7 @@ draft = false
 tags = ["home"]
 +++
 
-</br></br>
-
+\
 {{< resize-image src="tv.png" alt="LED TV" width="600" >}}
 
 Ever feel like your TV setup could use a little extra pizzazz? Well, I've got a super cost-effective upgrade that can make a **huge difference** in your viewing experience: **LED light strips**! 🌈

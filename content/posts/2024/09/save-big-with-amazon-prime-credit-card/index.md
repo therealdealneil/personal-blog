@@ -5,7 +5,7 @@ draft = false
 tags = ["productivity", "home"]
 +++
 
-<br/><br/>
+\
 
 {{< resize-image src="browsing-amazon-with-credit-card.png" alt="Person browsing Amazon.com with a credit card in hand" width="650" >}}
 

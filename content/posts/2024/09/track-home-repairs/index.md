@@ -5,8 +5,7 @@ draft = false
 tags = ["home"]
 +++
 
-</br></br>
-
+\
 {{< resize-image src="home-repairs.png" alt="LED TV" width="450" >}}
 
 If you're a homeowner and as your home ages, repairs will become common. Often, you need to go back to see when you did a repair or what kind of warranty the repair had. Keeping track of home repairs and improvements can be a daunting task, but using a [Google Sheets](https://sheets.google.com) spreadsheet can make it much easier. 

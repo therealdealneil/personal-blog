@@ -5,7 +5,7 @@ draft = false
 tags = ["home"]
 +++
 
-<br/><br/>
+\
 
 {{< resize-image src="delivery-driver.png" alt="Driver delivering food from his car" width="650" >}}
 

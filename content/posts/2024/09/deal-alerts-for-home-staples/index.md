@@ -5,7 +5,7 @@ draft = false
 tags = ["home"]
 +++
 
-<br/><br/>
+\
 
 {{< resize-image src="slickdeals-homepage.png" alt="Slickdeals Homepage" width="700" >}}
 
