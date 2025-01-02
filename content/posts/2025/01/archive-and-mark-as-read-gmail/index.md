@@ -62,4 +62,4 @@ Credit goes to the many articles I used to craft this solution. Here's how to ge
 {{< resize-image src="step-6.png" alt="Dialog configuring an hour-based interval" width="600" >}}
 
 ### Conclusion
-That's it! All your unread emails in your archive will not be automatically marked as read on this interval. This is also a nice introduction to Google Apps Script and how you can use it to automate tasks in your Google Apps.
+That's it! All your unread emails in your archive will be automatically marked as read on a recurring interval. This is also a nice introduction to Google Apps Script and how you can use it to automate tasks in your Google Apps.
