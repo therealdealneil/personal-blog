@@ -15,7 +15,7 @@ tags = ["productivity"]
 
 Gmail introduced the now universal concept of archiving emails. This let you remove emails from your inbox, yet not completely delete them in case you needed to retrieve an email at a later time. Frequently, you archive an email without even opening it when the subject tells you all you need to know.
 
-Unfortunately, this means you end up with unread emails in your archive. Gmail doesn't have a feature to mark as read and archive in one fail swoop. However, there is a clever trick to help automate this process.
+Unfortunately, this means you end up with unread emails in your archive. Gmail doesn't have a feature to mark as read and archive in one fell swoop. However, there is a clever trick to help automate this process.
 
 ### Using Google Apps Script
 The trick is to use [Google Apps Script](https://script.google.com), which is a free, hosted service that lets you automate tasks, create plugins, and more for Google Apps. With this, we'll create a script that runs on an interval (i.e. 1 hour) and automatically marks unread emails in your archive as read. This runs fully on Google's servers in the background.
